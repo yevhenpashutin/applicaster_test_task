@@ -13,11 +13,10 @@ Set up React-native environment https://reactnative.dev/docs/environment-setup
 
 ### Installing
 
-Clone the git project to folder that will contain project:
+Clone the git project to folder that will contain project (run this in MacOS's Terminal):
 
 ```
 git clone https://github.com/yevhenpashutin/applicaster_test_task.git
-
 ```
 Then install libraries necessary to run the project:
 
@@ -26,15 +25,14 @@ cd applicaster_test_task
 npm i
 ```
 
-And to run
+And then:
 
 ```
 npx react-native run-android
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+this will launch the Android emulator, metro bundler in new window of terminal, install apk to emulator and will run it.
 
+### DEMO
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+You can also check demo.mov video file to see how it runs on my android emulator.
